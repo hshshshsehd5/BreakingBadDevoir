@@ -1,0 +1,106 @@
+body{
+    background-image: url(https://www.usmagazine.com/wp-content/uploads/2020/08/Breaking-Bad-Where-Are-They-Now.jpg?w=1600&quality=86&strip=all);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin-bottom: 0px;
+    
+    background-attachment: fixed;
+    
+    height: 210vh; 
+}
+
+
+#container{
+    background-color: #1F6032;
+    color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#header{
+    background-color: #0D3E10;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#Attention{
+    text-align: center;
+    color: red;
+}
+
+#content{
+    padding: 10px;
+}
+
+#nav{
+    width: 190px;
+    float: left;
+    margin-left: 44px;
+    background-color: rgb(76, 104, 81);
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+.selected{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: underline;
+    color: red;
+}
+
+#main{
+    width: 722px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: #29773E;
+    color: white;
+    text-align: right;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#spoilerText{
+    color: white;
+    font-weight: bold;
+}
+
+summary{
+    list-style: none;
+    cursor: pointer;
+}
+
+#BouttonYoutube{
+    margin-left: 175px;
+}
+
+details.spoiler summary::after {
+    content: var(--hidden);
+    filter: blur(4px);
+    display: block;
+  }
+  
+  details[open] summary::after {
+    display: none;
+  }
