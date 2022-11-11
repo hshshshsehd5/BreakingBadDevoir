@@ -86,8 +86,8 @@ a{
 }
 
 #spoilerText{
-    color: white;
     font-weight: bold;
+    color: goldenrod;
 }
 
 summary{
