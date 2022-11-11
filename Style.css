@@ -95,6 +95,15 @@ summary{
     margin-left: 175px;
 }
 
+#Images{
+    margin-left: 50px;
+}
+
+#Liens{
+    background-color: rgb(92, 116, 97);
+    background-size: cover;
+}
+
 details.spoiler summary::after {
     content: var(--hidden);
     filter: blur(4px);
