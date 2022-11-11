@@ -13,7 +13,8 @@ body{
 
 
 #container{
-    background-color: #1F6032;
+    background-color: #1f6032ad;
+    backdrop-filter: blur(5px);
     color: white;
     width: 1000px;
     margin-left: auto;
@@ -95,11 +96,20 @@ summary{
 }
 
 #BouttonYoutube{
-    margin-left: 272px;
+    margin-left: 545px;
+}
+
+#ImageMerci{
+    margin-left: 30px;
 }
 
 #Images{
     margin-left: 50px;
+}
+
+#Titres{
+    font-weight: bold;
+    color: goldenrod;
 }
 
 details.spoiler summary::after {
