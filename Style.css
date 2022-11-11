@@ -29,6 +29,8 @@ body{
 }
 
 #Attention{
+    width: 722px;
+    border: solid red 2px;  
     text-align: center;
     color: red;
 }
@@ -44,6 +46,7 @@ body{
     background-color: rgb(76, 104, 81);
     margin-left: 15px;
     margin-top: 25px;
+    padding: 10px;
 }
 
 #nav ul{
@@ -92,16 +95,11 @@ summary{
 }
 
 #BouttonYoutube{
-    margin-left: 175px;
+    margin-left: 272px;
 }
 
 #Images{
     margin-left: 50px;
-}
-
-#Liens{
-    background-color: rgb(92, 116, 97);
-    background-size: cover;
 }
 
 details.spoiler summary::after {
