@@ -14,7 +14,7 @@ body{
 
 #container{
     background-color: #1f6032ad;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(20px);
     color: white;
     width: 1000px;
     margin-left: auto;
@@ -48,7 +48,8 @@ body{
     margin-left: 15px;
     margin-top: 25px;
     padding: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
+    position: absolute;
 }
 
 #nav ul{
@@ -87,6 +88,7 @@ a{
 }
 
 #spoilerText{
+    font-size: larger;
     font-weight: bold;
     color: goldenrod;
 }
@@ -100,8 +102,13 @@ summary{
     margin-left: 545px;
 }
 
+#Boutton2{
+    margin: auto;
+    size: 10px;
+}
+
 #ImageMerci{
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 #Images{
@@ -109,6 +116,26 @@ summary{
 }
 
 #Titres{
+    font-weight: bold;
+    color: goldenrod;
+}
+
+#Gifs{
+    background-color: rgb(119, 145, 124);
+}
+
+#Pages{
+    background-color: #00000086;
+    backdrop-filter: blur(2px);
+    position:absolute;
+    text-align: center; 
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+#Cliquer{
+    position:absolute;
+    background: transparent;
     font-weight: bold;
     color: goldenrod;
 }
